@@ -1,15 +1,20 @@
 // Cadastro evento savinis
 
-let dataEvento = new Date ("2021-12-30")
-let dataAtual = new Date ("2021-12-27")
-let idade = 20
-let quanPart = 70
+let infoEvent = {
+    dataEvento: new Date ("2022-01-25"),
+    dataAtual: new Date ()
+} 
 
-if (dataEvento > dataAtual) {
+let infoPart = {
+    idade: 20,
+    quanPart: 70
+} 
+
+if (infoEvent.dataEvento > infoEvent.dataAtual) {
     console.log("\nData válida.")
-    if (idade > 18){
+    if (infoPart.idade > 18){
         console.log("\nIdade permitida.")
-        if (quanPart < 100) {
+        if (infoPart.quanPart < 100) {
             console.log("\nCadastro realizado.")
         } else {
             console.log("\nCadastro não realizado. Excedido o limite de participantes.")
