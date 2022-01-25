@@ -1,0 +1,24 @@
+{
+  "name": "cadastro_savinis",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "cadastro_evento_savinis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogo9130/cadastro_savinis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogo9130/cadastro_savinis/issues"
+  },
+  "homepage": "https://github.com/diogo9130/cadastro_savinis#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
