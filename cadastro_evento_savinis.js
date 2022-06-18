@@ -3,7 +3,7 @@
 import entradaDados from "readline-sync"
 
 let infoEvent = {
-    dataEvento: new Date ("2022-01-26"),
+    dataEvento: new Date ("2022-07-26"),
     dataAtual: new Date ()
 } 
 
